@@ -16,6 +16,7 @@ class Song
     song 
   end
   
-  
-  
+  def new_by_name(song_name)
+    song.create(song_name)
+  end 
 end
